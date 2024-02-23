@@ -6,11 +6,11 @@ class ScheduleResponse
 {
     use ResponseTrait;
 
-    protected string $scheduleStatus, $scheduleMessage,
+    protected $scheduleStatus, $scheduleMessage,
         $eventId, $importStatus, $totalScheduledSMS, $totalRecipients,
         $acceptedRecipients, $rejectedRecipients, $creditsSpent;
 
-    protected array $SmsScheduledList = [];
+    protected $SmsScheduledList = [];
 
     public function __construct($response = null)
     {
