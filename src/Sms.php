@@ -56,7 +56,7 @@ class Sms extends SendIt
     public function setText($text): self
     {
         $text = trim($text);
-        $text = mb_convert_encoding($text, "UTF-16BE", "UTF-8");
+        #$text = mb_convert_encoding($text, "UTF-16BE", "UTF-8");
 
         $totalCredits = ceil(strlen($text) / $this->maxLengthPerCredit);
 
