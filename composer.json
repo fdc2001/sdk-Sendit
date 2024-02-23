@@ -1,5 +1,6 @@
 {
     "name": "filipeclemente/u-sendit-sdk",
+    "license": "MIT",
     "description": "U-SendIt API SDK",
     "autoload": {
         "psr-4": {
