@@ -1,0 +1,20 @@
+{
+    "name": "filipeclemente/u-sendit-sdk",
+    "description": "U-SendIt API SDK",
+    "autoload": {
+        "psr-4": {
+            "Filipeclemente\\USendItSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Filipe Clemente",
+            "email": "dev@filipeclemente.pt"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "ext-simplexml": "*",
+        "ext-mbstring": "*"
+    }
+}
