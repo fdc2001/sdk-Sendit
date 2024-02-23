@@ -5,7 +5,7 @@ use Filipeclemente\USendItSdk\Client;
 use Filipeclemente\USendItSdk\Sms;
 
 $client = new Client();
-$client->setUsername('RSerina')->setPassword('123Doctusware**')->setSender('SmsTeste')->enableSandbox();
+$client->setUsername('')->setPassword('')->setSender('SmsTeste')->enableSandbox();
 
 $sms = new Sms();
 $sms->setDestinatitary('351910000000')->setPartnerEventId(123)->setText('Hello World!')->setPriority(10);
